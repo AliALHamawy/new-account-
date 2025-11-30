@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --white-color: white;
+  --wheat-color: wheat;
+  --black-color: black;
+  --gray-color: gray;
+  --green-color: #4255da;
+  --purple-color: rgb(183, 0, 255);
+  --dark-gray: #222;
+  --darker-gray: #333;
+  --light-green: #4254dab2;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --facebook-color: #1877f2;
+  --instagram-color: #e4405f;
+  --telegram-color: #2ca5e0;
+  --github-color: #333;
+  --icon-color: rgb(0, 183, 255);
+  --left-bg-color: #000000;
+  --right-bg-color: #333;
+  --left-bg-color: #000000;
+  --right-bg-color: #333;
+
+}
+
+html.light {
+  --white-color: #222;
+  --wheat-color: #444;
+  --black-color: #999;
+  --gray-color: #555;
+  --green-color: #0316a1;
+  --purple-color: rgb(110, 0, 170);
+  --dark-gray: #e0e0e0;
+  --darker-gray: #666;
+  --light-green: #4254dab2;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+  --facebook-color: #1877f2;
+  --instagram-color: #e4405f;
+  --telegram-color: #2ca5e0;
+  --github-color: #333;
+  --icon-color: rgb(255, 180, 0);
+  --left-bg-color: #444;
+  --right-bg-color: #666;
+  --left-bg-color: #444;
+  --right-bg-color: #666;
+}
+
+body {
+  font-family: cursive, sans-serif;
+  background-color: var(--darker-gray);
+  margin: 0;
+  padding: 0;
+}
+
+section.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 85vh;
+  margin: 7.5vh auto;
+  border: 1px solid var(--darker-gray);
+  /* Change this line */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 30px var(--shadow-color);
+  /* Change this line */
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8em;
+  color: var(--white-color);
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--darker-gray);
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  border: 1px solid var(--white-color);
+}
+
+span:active {
+  rotate: 180deg;
+}
+
+span:hover {
+  border: 1px solid var(--icon-color);
+  color: var(--icon-color);
+}

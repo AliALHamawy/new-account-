@@ -1,0 +1,117 @@
+div.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  color: var(--wheat-color);
+  background-color: var(--left-bg-color);
+  padding: 30px 20px;
+  box-shadow: 0 0 30px var(--shadow-color);
+  border-radius: 10px 0 0 10px;
+  border-right: 1px solid rgba(128, 128, 128, 0.589);
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+
+div.left .profile-image {
+  margin-bottom: 20px;
+}
+
+div.left .profile-image img {
+  width: 160px;
+  height: 160px;
+  border: 1px solid var(--wheat-color);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px var(--light-green);
+}
+
+div.left .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+div.left .about h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+div.left .about .title {
+  font-size: 1.2rem;
+  color: var(--light-green);
+  margin: 0;
+}
+
+div.left .about a.email {
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.5s ease;
+}
+
+div.left .about a.email:hover {
+  color: var(--light-green);
+  text-decoration: underline;
+}
+
+div.left .social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+div.left .social-links a {
+  display: inline-block;
+  transition: transform 0.5s ease;
+  text-decoration: none;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+div.left .social-links a:hover {
+  transform: translateY(-3px);
+}
+
+div.left .social-links i {
+  font-size: 1.7rem;
+  color: var(--gray-color);
+  cursor: pointer;
+  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+}
+
+div.left .social-links a:hover i.icon-facebook {
+  color: var(--facebook-color);
+}
+
+div.left .social-links a:hover i.icon-instagram {
+  color: var(--instagram-color);
+
+}
+
+div.left .social-links a:hover i.icon-telegram {
+  color: var(--telegram-color);
+}
+
+div.left .social-links a:hover i.icon-github {
+  color: var(--github-color);
+}
+}

@@ -1,0 +1,93 @@
+div.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    color: var(--white-color);
+    background-color: var(--right-bg-color);
+    padding: 30px;
+    overflow-y: auto;
+    border-radius: 0 10px 10px 0;
+}
+
+div.right::-webkit-scrollbar {
+    width: 8px;
+}
+
+div.right::-webkit-scrollbar-track {
+    background: var(--black-color);
+}
+
+div.right::-webkit-scrollbar-thumb {
+    background: var(--purple-color);
+    border-radius: 4px;
+}
+
+div.right::-webkit-scrollbar-thumb:hover {
+    background: #ff00ff;
+}
+
+div.right ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.right ul li {
+    display: flex;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    width: 250%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    cursor: pointer;
+    transition: all 1s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+div.right ul li:hover {
+    background-color: var(--green-color);
+}
+
+div.right ul li:hover a {
+    color: var(--black-color);
+}
+
+div.right ul li a {
+    text-decoration: none;
+    color: var(--green-color);
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+
+/* 1280 */
+@media (max-width: 1280px) {
+div.right ul li {
+    width: 220%;
+}
+    
+}
+
+/* 1050 */
+@media (max-width: 1050px) {
+div.right ul li {
+    width: 200%;
+}
+    
+}
