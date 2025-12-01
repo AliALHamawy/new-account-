@@ -4,11 +4,21 @@ function Right() {
   return (
     <div className='right'>
       <ul>
-        <li><a target="_blank" href="https://alialhamawy.github.io/portfolio/">Portfolio</a></li>
-        <li><a target="_blank" href="https://alialhamawy.github.io/calculator/">Calc</a></li>
-        <li><a target="_blank" href="https://alialhamawy.github.io/x-o-game/">X - O Game</a></li>
-        <li><a target="_blank" href="https://todo-list-3lz.pages.dev/">To Do List</a></li>
-        <li><a target="_blank" href="https://alialhamawy.github.io/Prodcut-Card/">Product Card</a></li>
+        <li onClick={() => window.open("https://alialhamawy.github.io/portfolio/", "_blank")}>
+          Portfolio
+        </li>
+        <li onClick={() => window.open("https://alialhamawy.github.io/calculator/", "_blank")}>
+          Calc
+        </li>
+        <li onClick={() => window.open("https://alialhamawy.github.io/x-o-game/", "_blank")}>
+          X - O Game
+        </li>
+        <li onClick={() => window.open("https://todo-list-3lz.pages.dev/", "_blank")}>
+          To Do List
+        </li>
+        <li onClick={() => window.open("https://alialhamawy.github.io/Prodcut-Card/", "_blank")}>
+          Product Card
+        </li>
       </ul>
     </div>
   )

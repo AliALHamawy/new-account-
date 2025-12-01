@@ -65,11 +65,11 @@ div.right ul li:hover {
     background-color: var(--green-color);
 }
 
-div.right ul li:hover a {
+div.right ul li:hover {
     color: var(--black-color);
 }
 
-div.right ul li a {
+div.right ul li {
     text-decoration: none;
     color: var(--green-color);
     font-size: 1.9rem;
