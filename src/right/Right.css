@@ -7,7 +7,7 @@ div.right {
     color: var(--white-color);
     background-color: var(--right-bg-color);
     padding: 30px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     border-radius: 0 10px 10px 0;
 }
 
@@ -78,16 +78,42 @@ div.right ul li a {
 
 /* 1280 */
 @media (max-width: 1280px) {
-div.right ul li {
-    width: 220%;
-}
-    
+    div.right ul li {
+        width: 220%;
+    }
+
 }
 
 /* 1050 */
 @media (max-width: 1050px) {
-div.right ul li {
-    width: 200%;
+    div.right ul li {
+        width: 200%;
+    }
+
 }
-    
+
+@media (max-width: 920px) {
+    div.right {
+        width: 100%;
+        height: 100%;
+        background-color: var(--left-bg-color);
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 853px) {
+    div.right ul li {
+        width: 240%;
+    }
+}
+@media (max-width: 500px) {
+    div.right ul li {
+        width: 150%;
+    }
+}
+
+@media (max-width: 350px) {
+    div.right ul li {
+        width: 130%;
+    }
 }

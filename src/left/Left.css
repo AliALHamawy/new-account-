@@ -114,4 +114,28 @@ div.left .social-links a:hover i.icon-telegram {
 div.left .social-links a:hover i.icon-github {
   color: var(--github-color);
 }
+
+@media (max-width: 920px) {
+  div.left {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    box-shadow: none;
+  }
+div.left .profile-image img {
+  width: 200px;
+  height: 200px;
+}
+div.left .social-links i {
+  font-size: 2rem;
+}
+div.left .about .title {
+  font-size: 1.8rem;
+}
+div.left .about a.email {
+  font-size: 1.6rem;
+}
 }
