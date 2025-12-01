@@ -4,7 +4,7 @@ function Left() {
   return (
     <div className='left'>
       <div className="profile-image">
-        <img src="/src/assets/me.jpg" alt="Profile" />
+        <img src="./src/assets/me.jpg" alt="Profile" />
       </div>
       <div className='about'>
         <h1>ALI AL-HAMAWY</h1>
